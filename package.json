@@ -1,7 +1,7 @@
 {
-  "name": "belajar-nodejs-logging",
+  "name": "belajar-nodejs-express",
   "version": "1.0.0",
-  "description": "Belajar NodeJS logging",
+  "description": "Belajar NodeJS Express",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
@@ -33,9 +33,12 @@
     "@babel/plugin-transform-runtime": "^7.17.12",
     "@babel/preset-env": "^7.17.12",
     "babel-jest": "^28.1.0",
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "supertest": "6.3.4"
   },
   "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
     "winston": "^3.13.0",
     "winston-daily-rotate-file": "^5.0.0"
   }
