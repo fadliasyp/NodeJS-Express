@@ -27,7 +27,7 @@
       "!vendor/**/*.{js,jsx}"
     ]
   },
-  "author": "Eko Kurniawan Khannedy",
+  "author": "fadli",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.12",
